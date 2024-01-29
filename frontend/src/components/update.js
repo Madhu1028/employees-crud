@@ -23,7 +23,7 @@ export default function Update() {
     }, []);
 
     const updateAPIData = () => {
-        axios.post(`http://localhost:5001/edit_user/${id}`, {
+        axios.post(`http://localhost:5001/api/edit_user/${id}`, {
             name,
             email,
             salary,

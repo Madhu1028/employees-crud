@@ -11,7 +11,7 @@ export default function Create() {
     const [phone, setPhone] = useState(0);
     const [ecode, setEcode] = useState(0);
     const postData = () => {
-        axios.post(`http://localhost:5001/add-employee`, {
+        axios.post(`http://localhost:5001/api/add-employee`, {
             name,
             email,
             salary,
